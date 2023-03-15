@@ -1,18 +1,55 @@
-body { background-color: #e5e5e5;
-        color: black;
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Roboto Mono', monospace;
-        margin-left: 30%;
-        margin-right: 30%;
-      }
-h1 {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 500%;
-      }
-#profileimage {float: right;
-      }
-img.one { width: 30%;
-    height: 30%
-      }
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  background-color: #abcae9;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Fragment Mono', monospace;
+  font-family: 'Fragment Mono'
+  color: black;
+  font-size: normal;
+}
+h1 small {
+  color: #999;
+  display: block;
+  font-size: 0.5em;
+}
+
+h1, h2, h3, h4 {
+  padding-left: 30px;
+}
+
+.content {
+  background-color: #abcae9;
+  max-width: 800px;
+  margin: 0;
+  padding: 50px 100px 50px 50px;
+  border-right: 0px solid #efefef;
+}
+.what, .synopsis, .education {
+  margin-bottom: 25px;
+  margin-left: -40px;
+  padding-left: 70px;
+}
+
+
+
+.what {
+  display: block;
+  margin-top: 0px;
+  margin-left: 20px;
+  padding-left: 10px;
+  background-color: #fafafa;
+  font-size: 80px
+}
+
+.footer, {
+  margin-bottom: 115px;
+  margin-left: -410px;
+  padding-left: 90px;
+}
