@@ -21,7 +21,7 @@ h1 small {
 }
 
 h1, h2, h3, h4 {
-  padding-left: 30px;
+  padding-left: 25px;
 }
 
 .content {
@@ -31,12 +31,20 @@ h1, h2, h3, h4 {
   padding: 50px 100px 50px 50px;
   border-right: 0px solid #efefef;
 }
-.what, .synopsis, .education {
+.wha3t, .synopsis, .education {
   margin-bottom: 25px;
   margin-left: -40px;
   padding-left: 70px;
 }
 
+.footer {
+  background-color: #abcae9;
+  max-width: 800px;
+  margin: 0;
+  padding: 50px 110px 0px 0px;
+  padding-left: 25px;
+  border-right: 0px solid #efefef;
+}
 
 
 .what {
